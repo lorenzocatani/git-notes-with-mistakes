@@ -27,15 +27,15 @@ Tell Git about a new file
 ======================
 
 ```
-vim my_file.dm # Edit file
-git add my_file.dm
+vim my_file # Edit file
+git add my_file
 ```
 
 Include changes in a file into the next work commit
 ==============================================
 
 ```
-git commit
+git add my_file
 ```
 
 This includes the changes to that file in a list of changes
